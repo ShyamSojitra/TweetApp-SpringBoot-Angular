@@ -1,0 +1,51 @@
+.button button{
+    background-color: white;
+    border: none;
+    color: #4285F4;
+}
+li{
+    border-left: 1rems;
+    border-right: 1rems;
+    box-shadow: 5px 10px #4285F4;
+}
+
+.tweet{
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+h1{
+    display: inline;
+}
+.sm{
+    font-size:larger;
+}
+h5{
+    color: rgb(89, 78, 78);
+}
+p{
+    color: rgb(89, 78, 78);
+}
+
+.card .card-body .card-header{
+    margin-bottom: 10px;
+    color: #FFC096;
+    background-color: #509FF9;
+    font-size: x-large;
+    font-weight: lighter;
+
+}
+
+button{
+    background-color: #509FF9;
+    color: #FFC096;
+    font-weight: 600;
+}
+
+label{
+    color:#fe9e5e;
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+}

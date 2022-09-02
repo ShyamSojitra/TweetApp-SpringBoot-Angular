@@ -1,0 +1,18 @@
+<div class="card">
+    <div class="card-body">
+
+        <div class="container">
+            <div class="card-header">Update Tweet</div>
+            <div class="form-group">
+                <textarea class="form-control" rows="3" maxlength="194" placeholder="What's going on your mind?"
+                    [(ngModel)]="tweet.tweets"></textarea>
+            </div>
+            <div *ngIf=tweetInValid class="alert alert-warning">{{tweetInValid}}
+            </div>
+            <div>
+                <button class="btn btn-primary" (click)=updateTweet()>Update Tweet</button>
+            </div>
+        </div>
+
+    </div>
+</div>

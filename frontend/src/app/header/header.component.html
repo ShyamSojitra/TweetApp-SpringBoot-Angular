@@ -1,0 +1,28 @@
+<header>
+        <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #509FF9;">
+                <a href="" class="navbar-brand"><img src="assets/logoS.png" height="200" width="200"></a>
+                <ul class="navbar-nav">
+                        <li><a *ngIf="!authenticationService.isUserLoggedIn()" routerLink="/tweets/login"
+                                        class="nav-link">Login</a>
+                        </li>
+                        <li><a *ngIf="!authenticationService.isUserLoggedIn()" routerLink="/tweets/register"
+                                        class="nav-link">Register</a></li>
+                        <li><a *ngIf="authenticationService.isUserLoggedIn()"
+                                        routerLink="/tweets/{{this.authenticationService.getUser()}}/home"
+                                        class="nav-link">Home</a></li>
+                        <li><a *ngIf="authenticationService.isUserLoggedIn()"
+                                        routerLink="/tweets/{{this.authenticationService.getUser()}}/all"
+                                        class="nav-link">Tweets</a></li>
+                        <li><a *ngIf="authenticationService.isUserLoggedIn()"
+                                        routerLink="/tweets/{{this.authenticationService.getUser()}}/users/all"
+                                        class="nav-link">All
+                                        Users</a></li>
+                </ul>
+
+                <ul class="navbar-nav navbar-collapse justify-content-end">
+                        <li><a *ngIf="authenticationService.isUserLoggedIn()" routerLink="/tweets/logout"
+                                        class="nav-link">Logout</a></li>
+                </ul>
+        </nav>
+
+</header>

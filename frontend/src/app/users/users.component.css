@@ -1,0 +1,36 @@
+h5{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+
+.div{
+    padding-right: 1%;
+}
+.bt{
+    margin-right: 1%;
+}
+
+
+p{
+    color: rgb(89, 78, 78);
+}
+
+.card .card-body .card-header{
+    margin-bottom: 10px;
+    color: #FFC096;
+    background-color: #509FF9;
+    font-size: larger;
+    font-weight: 600;
+}
+
+button{
+    background-color: #509FF9;
+    color: #FFC096;
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+}

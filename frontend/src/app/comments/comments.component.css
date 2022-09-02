@@ -1,0 +1,30 @@
+.box p{
+    font-style: oblique;
+}
+.para{
+    font-style: oblique;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.myli{
+    border-left: 1rems;
+    border-right: 1rems;
+    box-shadow: 5px 10px #509FF9;
+}
+
+.card .card-body .card-header{
+    color: #FFC096;
+    background-color: #509FF9;
+    font-size: larger;
+    font-weight: 600;
+}
+
+button{
+    background-color: #509FF9;
+    color: #FFC096;
+    font-weight: 600;
+}

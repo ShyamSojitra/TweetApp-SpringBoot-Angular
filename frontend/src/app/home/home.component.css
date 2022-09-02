@@ -1,0 +1,44 @@
+.button button{
+    background-color: white;
+    border: none;
+    color: #509FF9;
+}
+li{
+    border-left: 1rems;
+    border-right: 1rems;
+    box-shadow: 5px 10px #509FF9;
+}
+
+.tweet{
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+}
+h5{
+    color: rgb(89, 78, 78);
+}
+p{
+    color: rgb(89, 78, 78);
+}
+
+.card .card-body .card-header{
+    margin-bottom: 10px;
+    color: #FFC096;
+    background-color: #509FF9;
+    font-size: larger;
+    font-weight: 600;
+}
+
+button{
+    background-color: #509FF9;
+    color: #FFC096;
+    font-weight: 600;
+}
+
+label{
+    color:#fe9e5e;
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+}
